@@ -1,0 +1,51 @@
+{
+	"views/index.html": {
+		"resources": [
+			"@/js/app/index.js",
+			"@/js/lib/jquery/jquery-1.11.2.min.js",
+			"@/fonts/mui.ttf",
+			"@/css/mui.min.css",
+			"@/js/mui.min.js",
+			"views/list.html"
+		],
+		"refer": [
+			"views/list.html",
+			"views/add.html",
+			"views/menu.html",
+			"views/detail.html"
+		]
+	},
+	"views/list.html": {
+		"resources": [
+			"@/js/app/list.js",
+			"@/js/lib/qmask/qmask-3.0.js",
+			"@/js/lib/qmask/qmask-3.0.css",
+			"@/js/lib/jquery/jquery-1.11.2.min.js",
+			"@/css/mui.min.css",
+			"@/js/mui.min.js"
+		]
+	},
+	"views/add.html": {
+		"resources": [
+			"@/js/app/add.js"
+		]
+	},
+	"views/menu.html": {
+		"resources": [
+			"@/js/app/menu.js",
+			"@/css/app/menu.css",
+			"@/js/lib/qiao/qiao.h.js",
+			"@/js/lib/jquery/jquery-1.11.2.min.js",
+			"@/css/mui.min.css",
+			"@/js/mui.min.js"
+		]
+	},
+	"views/detail.html": {
+		"resources": [
+			"@/js/app/detail.js",
+			"@/js/lib/jquery/jquery-1.11.2.min.js",
+			"@/css/mui.min.css",
+			"@/js/mui.min.js"
+		]
+	}
+}
