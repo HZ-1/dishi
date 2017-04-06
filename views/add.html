@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+
+		<!-- mui -->
+		<link type="text/css" rel="stylesheet" href="../@/css/mui.min.css"/>
+	</head>
+<!--添加页从底部进入效果
+添加页的显示不是简单的显示出来，而是用了一个从底部进入的效果，
+
+所有的webview调用show方法的时候都可以 添加效果，-->
+	<body>
+		<div class="mui-content-padded">
+			<div class="mui-input-row">
+				<input type="text" class="mui-input-clear" placeholder="待办事项标题" id="addTitle">
+			</div>
+			<div class="mui-input-row">
+				<textarea rows="14" placeholder="待办事项内容" id="addContent"></textarea>
+			</div>
+			<div class="mui-button-row">
+				<button class="mui-btn mui-btn-block mui-btn-primary addItemBtn">添加</button>
+			</div>
+		</div>
+		
+		<!-- mui -->
+		<script type="text/javascript" src="../@/js/mui.min.js"></script>
+		<!-- jquery -->
+		<script type="text/javascript" src="../@/js/lib/jquery/jquery-1.11.2.min.js"></script>
+		<!-- qiao.h.js -->
+		<script type="text/javascript" src="../@/js/lib/qiao/qiao.h.js"></script>
+		<!-- app -->
+		<script type="text/javascript" src="../@/js/app/add.js"></script>
+	</body>
+</html>
